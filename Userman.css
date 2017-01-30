@@ -1,0 +1,492 @@
+/*-------------------------------HEADER---------------------------------------------*/
+body{
+	width: 1110px;
+	margin: auto; 	
+	background: url("img/b2.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+/*---------------------------------------------MENU LEFT------------------------------------*/
+div#pesan{
+	width: 1100px;
+}
+
+
+div#menuleft{
+	clear: both;
+	float: left;
+	width: 193px;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	height:  300px;
+	margin-left: 0.5%;
+	margin-right: 0.2%;
+	margin-bottom: 1%;
+}
+
+div.menleft{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+	text-align: center;
+	margin-bottom:5%;
+}
+
+div.menleft button{
+	text-decoration: none;
+	font-size: 140%;
+	width: 100%;
+	height: 40px;
+	background-color:  #F4F4F4;
+	border: 1.5px solid #D4D4D4;
+	color: #333;
+}
+
+div.menleft button:hover{
+	cursor: pointer;
+	background-color: green;
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------------FRIENDLIST------------------------------------*/
+
+div#UserMan{
+	clear: both;
+	float: left;
+	width: 1092px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+div#userManHead{
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	width: 100%;
+	height: 155px;
+	margin-left: 0.5%;
+	margin-bottom: 0.5%;
+}
+
+div#photo{
+	margin-top: 1%;
+	margin-left: 1%;
+	float: left;
+	width: 130px;
+	height: 135px;
+}
+
+div#photo img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+div#rightMenu{
+	margin-top: 1.2%;
+	float: left;
+}
+
+div#username{
+	width: 500px;
+	margin-top: -5%;
+	margin-left: 5%;
+}
+
+div#username h2{
+	font-size: 250%;
+	color: #333;
+}
+
+#profMenu{
+	margin-left: 1%;
+	margin-top: 0.5%;
+	width: 815px;
+}
+
+#profMenu div{
+	float: left;
+	padding: 0.7% 3.43%;
+	margin-right: 0.3%;
+	background-color: #F4F4F4;
+	border-right: 2px solid #D4D4D4;
+}
+
+#profMenu div a{
+	color: #333;
+	text-decoration: none;
+	font-size: 140%;
+}
+
+div#profMenu div:hover{
+	background-color: green;
+	color: white;
+}
+
+
+#profMenu a:hover{
+	color: white;
+}
+
+
+/*change profilaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+span{
+	font-size: 10px;
+	font-style: italic;
+	color: red;
+}
+#judulform{
+	background-color:  rgba(244, 244, 244, 0.7);
+	margin-top: 10px;
+border: 1px solid #D4D4D4;
+	margin-bottom:2px;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 1px;
+	width: 1090px;
+	margin-left: 5px;
+}
+#kotakform{
+	margin-right :5px;
+	margin-left:5px ;
+	margin-bottom: 5px;
+	margin-top: 0.2%;
+	border: 1px solid #D4D4D4;
+
+	padding-left: 5px;
+	background-color:  rgba(244, 244, 244, 0.9);
+width: 1087px;
+}
+
+#isiform{		
+	margin :5px;
+	padding-left: 50px;
+	padding-top: 5px;
+	font-size: 24px;
+ 
+}
+
+
+#quetion1{
+	float :left;
+	padding-right: 50px; 
+
+}
+#quetion{
+	float :left;
+	padding-right: 15px; 
+}
+
+#quetion2{
+	font-size: 20px;
+	float :left;
+	padding-left: 15px; 
+}
+#answer{
+	margin-top: 10px;
+
+}
+
+
+
+
+.fregis{
+
+	margin-left: 20px;
+
+}
+.quetioncp{
+
+	float: left;
+	font-size: 18px;
+
+}
+.judulcp{
+	width: 1092px;	
+	font-size: 40px;
+	margin-top: 1%;
+	margin-bottom: 8px;
+	height: 50px;
+	background-color:  rgba(244, 244, 244, 0.7);
+	margin-left: 5px;
+	border: 1px solid #D4D4D4;
+}
+#accountinfocp{
+	margin-left: 5px;
+	margin-top: -0.6%;
+	width: 1052px;
+	padding: 20px;
+	background-color:  rgba(244, 244, 244, 0.9 	);
+	border: 1px solid #D4D4D4;
+}
+#personalinfocp{
+	margin-left: 5px;
+	margin-top: -0.6%;
+	width: 1052px;
+	padding: 20px;
+	background-color:  rgba(244, 244, 244, 0.9);
+	border: 1px solid #D4D4D4;
+}
+.itex {
+	height: 21px;
+}
+.fregis input{
+	height: 21px;
+}
+/*-----------------------------------------------------meesage---------------------------------------------------*/
+
+
+/*-------------------------------content----------------------------------------*/
+
+
+#bawahheader{
+	clear: both;
+	float: left;
+	width:201.5px ;
+	height: 602px;
+
+	text-align: center;
+}
+
+#kotaksearch{	
+	float: left;
+	height: 602px;
+	width: 890px;
+	margin-left: 0.5%;
+	background-color:  rgba(244, 244, 244, 0.9);
+	border: 1px solid #D4D4D4;
+	margin-bottom: 1%;
+	margin-right: -10px;
+}
+#wrap{
+	float: right;
+}
+
+.baris{
+	
+	margin-top: 10px;
+
+}
+#quetion1{
+	float :left;
+	padding-right: 50px; 
+	margin-top: 10px;
+
+}
+#answer{
+
+
+}
+#write{
+	margin-left: 15px;
+	margin-top: 10px;
+}
+#inbox{
+		
+}
+#outbox{
+		
+}
+.panelmessage{
+	width: 100%;
+	height: 40px;
+	margin-bottom:3px;
+	margin-top: 3px;
+	
+	background-color: #E9EAED;
+}
+.panelmessage2{
+	width: 100%;
+	height: 40px;
+	margin-bottom:3px;
+	margin-top: 3px;
+	
+	background-color: #E9EAED;
+}
+/*---------------------------------------BUTTON NYA-------------------------------*/
+
+button {
+	height: 35px;
+	width: 100px;
+	border: 0px;
+	color: white;
+	background-color: #333;
+}
+button:hover{
+	height: 35px;
+	width: 100px;
+	border: 0px;
+	color: white;
+	background-color: green;
+}
+
+button#bedit{
+	float :right;
+	margin-right: 10px;
+	margin-top: 2px;
+	border: none;
+}
+
+/*---------------------------------------friendlist-------------------------------*/
+div#friendlist{
+	clear: left;
+	margin-left: 0.5%;
+	height: 500px;
+	width: 98.4%;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+}
+
+
+
+div#friendlist h2{
+	margin-left: 5%;
+}
+
+div.friend{
+	float: left;
+	margin-top: -1%;
+	margin-left: 5%;
+	margin-bottom: 3%;
+	width: 100px;
+	height: auto;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	text-align: center;
+}
+
+div.friendPP{
+	width: 100px;
+	height: 100px;
+}
+
+div.friendPP img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*---------------------------------------mantript-------------------------------*/
+
+div.mantrip{
+	width: 112.75%;
+	height: 300px;
+	margin-left: 0.5%;
+	margin-bottom: 7%;
+}
+
+div.mantripTitle{
+	clear : both;
+	width: 1092px;
+	height: 50px;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	margin-bottom: 0.2%;
+}
+
+div.mantripTitle h2{
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+div.mantripIsi{
+	float: left;
+	width: 43.3%;
+	height: 120px;
+	background-color:  rgba(244, 244, 244, 0.9);
+	border: 1px solid #D4D4D4;
+	margin-right: 0.5%;
+	margin-bottom: 0.5%;
+}
+
+
+div.mantripImg{
+	float: left;
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 100px;
+	height: 200px;
+}
+
+div.mantripImg img{
+	width: 100%;
+	height: 100px;
+}
+
+div.mantripJudul{
+	float: left;
+	width: 400px;
+	height: 30px;
+	margin-left: 2%;
+	margin-top: 1%;
+	border-bottom: 2px solid #D4D4D4;
+}
+
+div.mantripJudul a{
+	text-decoration: none;
+	color: black;
+}
+
+div.mantripJudul h3{
+	margin-top: 1%;
+}
+
+
+div.mantripDetail{
+	width: 400px;
+	float: left;
+	margin-top: 1%;
+	margin-left: 2%;
+	text-decoration: none;
+}
+
+div.mantripDetail a{
+
+	text-decoration: none;
+}
+
+
+.mantripIcon{
+	width: 20px;
+	height: 20px;
+}
+
+/*layout message*/
+
+.toform{
+	float :left;
+}
+.tglm{
+	float : right;
+	font-size: 12px;
+	color: blue;
+}
+.titlem{
+	float :left;
+}
+#cp{
+	color: blue;
+	font-style: italic;
+
+}
+#cp button:hover{
+	cursor: pointer;
+	
+}
+#inboxopen{
+
+}
+#outboxopen{
+
+}

@@ -1,0 +1,180 @@
+/*-------------------------------HEADER---------------------------------------------*/
+body{
+	width: 1110px;
+	margin: auto; 
+	background: url("img/b2.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+/*-------------------------------SLIDE PICTURE AND SEARCH BAR-----------------------------------------*/
+
+
+#bawahheader{
+	margin-top: 1%;
+	clear: both;
+	float: left;
+	width: 707px;
+	height: 402px;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	text-align: center;
+}
+
+#kotaksearch{	
+	margin-top: 1%;
+	float: left;
+	height: 402px;
+	width: 381.5px;
+	margin-left: 0.5%;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	margin-bottom: 1%;
+}
+
+div#slider1_container{
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+#kotaksearch h1{
+	text-align: center;
+}
+
+#quetion2{
+	font-size: 115%;
+	float :left;
+	padding-left: 7%; 
+}
+
+/*---------------------------------------DESTINATION INFO-------------------------------*/
+
+
+div#cont{
+	width: 1096px;
+}
+
+div#content{
+	float: left;
+	clear: both;
+	width: 64.6%;
+	margin-right: 0%;
+	
+	margin-bottom: 1%;
+}
+
+div.judul{
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	height: 50px;
+}
+
+div.judul h2{
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+
+div.make{
+	margin-right: 0.3%;
+	margin-top: 1%;
+	float: right;
+	clear: both;
+	width: 120px;
+	height: 30px;
+	background: #333;
+	padding-top: 1%;
+	text-align: center;
+}
+
+div.make a{
+	color:white;
+	text-decoration: none;
+	font-size: 100%;
+}
+
+div.make:hover{
+	background: #383;
+}
+
+
+div.destInfo{
+	clear: left;
+	margin-top: 0.2%;
+	height: 210px;
+	background-color:  rgba(244, 244, 244, 0.94);
+	border: 1px solid #D4D4D4;
+}
+
+div.destImage{
+	float: left;
+	padding: 1.5%;
+	height: 191px;
+}
+
+div.destImage img{
+	width: 194px;
+	height: 188px;
+}
+
+div.destJudul{
+	float: left;
+	width: 65%;
+	margin-left: 2%;
+}
+
+div.destJudul a{
+	text-decoration: none;
+	color: black;
+}
+
+div.destDesk{
+	width: 400px;
+	float: left;
+	margin-left: 2%;	
+}
+
+div.destDesk p{
+	margin-top: 0%;
+	text-align: left;
+	font-size: 100%;
+}
+
+/*---------------------------------------HOT DESTINATION-------------------------------*/
+div#hotDest{
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	width: 34.65%;
+	float: right;
+}
+
+div#hotJudul{
+	text-align: center;
+}
+
+div.hotDestInfo{
+	clear: left;
+}
+
+
+div.hotImage{
+	float: left;
+	margin-left: 7%;
+	margin-bottom: 5%;
+	width: 27%;
+}
+
+div.hotImage img{
+	width: 85%;
+	height: 70px;
+}
+
+div.hot{
+	margin-top: 2%;
+	float: left;
+	font-size: 135%;
+}

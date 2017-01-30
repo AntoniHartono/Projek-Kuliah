@@ -1,0 +1,175 @@
+
+.header{
+	float: left;
+	width: 707px;
+	height: 192px;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+}
+
+.title{
+	float:left;
+	width: 100%;
+	height:auto;
+}
+
+
+.logo img{
+	float: left;
+	width: 600px;
+	height: 100px;
+	margin-top: 1.5%;
+	margin-left: 3%;
+}
+
+#navigation{
+	clear: both;
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-top: 4.3%;
+	margin-left: 1%;
+}
+
+#navigation div{
+	float: left;
+	padding: 0.7% 3.43%;
+	margin-right: 0.3%;
+	background: #333;
+}
+
+#navigation div a{
+	color:white;
+	text-decoration: none;
+	font-size: 166%;
+}	
+
+#navigation div:hover{
+	background: #383;
+}
+
+div#login{
+	float: left; 
+	width: 385px;
+	height: 190px;
+	margin-left: 0.5%;
+}
+
+div#profile{
+	height: 60%;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+}
+
+div#profImage{
+	float: right;
+	margin-top: 2%;
+	margin-right: 3%;
+}
+
+div#profImage img{
+	border-radius: 100px;
+	width: 80px;
+	height: 80px;
+	border: 6px solid #D4D4D4;
+}
+
+div#profInfo{
+	text-align: right;
+	width: 70%;
+	margin-top: 19%;
+	float: right;
+	margin-right: 2%;
+}
+
+div#profInfo a{
+	color:black;
+}
+
+div#profInfo a{
+	text-decoration: none;
+}
+
+div#profInfo a:hover{
+	text-decoration: underline;
+}
+
+
+
+div#update{
+	margin-top: 0.5%;
+	height: 39%;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+}
+
+div#updateIcon img{
+	float: left;
+	margin-top: 0%;
+	margin-left: 1%;	
+	width: 50px;
+	height: 50px;
+}
+
+div#location{
+	float: left;
+	height: 100%;
+	margin-top: -5.5%;
+	margin-left: 3%;
+	padding-top: 0;
+
+}
+
+div#location h1{
+	color: #555555;
+
+}
+
+div#updateLoc{
+	clear: left;
+	float: right;
+	margin-right: 2%;
+	margin-top: -1%;
+}
+
+div#updateLoc a{
+	text-decoration: none;
+	font-style: italic;
+	font-size: 70%;
+}
+
+div#updateLoc a:hover{
+
+	text-decoration: underline;
+}
+/*logoutttttttttttttttttttttttttttttttttttt*/
+
+#logouttab{
+
+	position: absolute;
+	width: 120px;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	top:105px;
+	left: 1098px;
+}
+.lo{
+	background-color:  rgba(244, 244, 244, 0.7);
+	width: 120px;
+	border-bottom: 5px black;
+	text-align: center;
+}
+
+.lo:hover{
+	background-color: green;
+}
+
+div.a{
+	padding-top: 10%;
+	height: 32px;
+}
+
+div.a a{
+	text-decoration: none;
+	color: black;
+}

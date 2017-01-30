@@ -1,0 +1,67 @@
+
+/*-------------------------------SLIDE PICTURE AND SEARCH BAR-----------------------------------------*/
+
+
+#bawahheader{
+	margin-top: 1%;
+	clear: both;
+	float: left;
+	width: 707px;
+	height: 402px;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	text-align: center;
+}
+
+div#slider1_container{
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+#kotaksearch{	
+	margin-top: 1%;
+	float: left;
+	height: 402px;
+	width: 381.5px;
+	margin-left: 0.5%;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	margin-bottom: 1%;
+}
+
+
+
+#kotaksearch h1{
+	text-align: center;
+}
+
+#quetion2{
+	font-size: 115%;
+	float :left;
+	padding-left: 7%; 
+}
+
+
+input#loc{
+	width: 192px;
+	height: 20px;
+}
+select#price{
+	width: 195px;
+	height: 25px;
+}
+
+#buton input{
+	margin-top: 4%;
+	margin-left: 48%;
+	width: 30%;
+	height: 30px;
+	color:white;
+	background: #333;
+	border: none;
+}
+#buton input:hover{
+	color:white;
+	background-color: green;
+	cursor: pointer;
+}

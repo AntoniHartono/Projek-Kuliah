@@ -1,0 +1,60 @@
+body{
+	width: 1110px;
+	margin: auto; 	
+	background: url("img/b2.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+span{
+font-size: 10px;
+	font-style: italic;
+	color: red;
+}
+.fregis{
+
+	margin-left: 20px;
+
+}
+
+div#formregister{
+	clear: both;
+	float: left;
+	width: 1098px;
+	margin-bottom: 1%;
+}
+
+
+
+.quetion{
+	float: left;
+	font-size: 19px;
+
+}
+div.judul{
+	margin-top: 0.2%;
+	font-size: 40px;
+	height: 50px;
+	background-color:  rgba(244, 244, 244, 0.7);
+	padding-bottom: 1%;
+}
+
+
+div.judul h3{
+	margin: 1%;
+}
+
+#accountinfo{
+	margin-top: 0.2%;
+	background-color:  rgba(244, 244, 244, 0.9);
+	padding: 20px;
+}
+#personalinfo{
+	padding: 20px;
+	margin-top: 0.2%;
+	background-color:  rgba(244, 244, 244, 0.9);
+}

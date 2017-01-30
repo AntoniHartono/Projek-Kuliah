@@ -1,0 +1,292 @@
+/*-------------------------------HEADER---------------------------------------------*/
+body{
+	width: 1110px;
+	margin: auto; 
+	background: url("img/b2.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+/*-------------------------------SLIDE PICTURE AND SEARCH BAR-----------------------------------------*/
+
+div#cont{
+	margin-top: 1%;
+	margin-right: 0;
+	margin-left: 0;
+	width: 1096px;
+
+}
+
+div#right{
+	float: left;
+	width: 381.5px;
+	padding-top: 0;
+	margin-left: 0.65%;
+}
+
+div#mainCont{
+	float: left;
+	width: 707px;
+}
+
+#kotaksearch{	
+	height: 402px;
+	width: 100%;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	margin-bottom: 1%;
+}
+
+#kotaksearch h1{
+	text-align: center;
+}
+
+#quetion2{
+	font-size: 115%;
+	float :left;
+	padding-left: 7%; 
+}
+
+
+input#loc{
+	width: 192px;
+	height: 20px;
+}
+select#price{
+	width: 195px;
+	height: 25px;
+}
+
+#buton input{
+	margin-top: 4%;
+	margin-left: 48%;
+	width: 30%;
+	height: 30px;
+	color:white;
+	background: #333;
+	border: none;
+}
+#buton input:hover{
+	color:white;
+	background-color: green;
+	cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+#bawahheader{
+	width: 707px;
+	height: auto;
+	background-color:  rgba(244, 244, 244, 0.9);
+	border: 1px solid #D4D4D4;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+#bawahheader h1{
+	text-align: left;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-bottom: 0%;	
+	padding: 1%;
+}
+
+div#imageSlide{
+	height: 402px;
+	width: 100%;
+	text-align: center;
+}
+
+#slide{
+	margin-top: 2%;
+	padding-top: 0%;
+	width: 97%;
+	height: 94.5%;
+
+}
+#slide2{
+	margin-top: 2%;
+	padding-top: 0%;
+	width: 97%;
+	height: 94.5%;
+
+}
+#slide3{
+	margin-top: 2%;
+	padding-top: 0%;
+	width: 97%;
+	height: 94.5%;
+
+}
+
+#img1:hover{
+	cursor: pointer;
+}
+#img2:hover{
+	cursor: pointer;
+}
+#img3:hover{
+	cursor: pointer;
+}
+
+
+div#choose{
+	float: left;
+	width: 70%;
+	text-align: right;
+}
+
+div#choose img{
+	width: 100px;
+	height: 100px;
+}
+
+div#map{
+	float: right;
+	text-align: right;
+	padding-right: 1.7%;
+	margin-top: -0.7%;
+}
+
+div#explain{
+	padding-top: 3%;
+	padding-left: 7%;
+	text-align: left;
+	clear: left;
+}
+
+div#destStory{
+	width: 90%;
+	height: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	font-family: Arial,sans-serif;
+	font-size: 80%;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
+div#comment{
+	width: 100%;
+	height: auto;
+	clear: both;
+	margin-top: 2%;
+	
+	margin-bottom: 1.7%;
+}
+
+
+div#comTitle{
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	height: 50px;
+	width: 100%;
+}
+
+div#comTitle h2{
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+div.comIsi{
+	margin-top: 0.2%;
+	width: 100%;
+	background-color:  rgba(244, 244, 244, 0.9);
+	border: 1px solid #D4D4D4;
+	margin-bottom: 0.3%;
+}
+
+div.comImage{
+	float: left;
+	width: 14.2%;
+	padding: 1%;
+}
+
+div.comImage img{
+	width: 100px;
+	height: 100px;
+}
+
+div.comImage h3{
+	text-align: center;
+	margin-top: 0;
+	width: 100%;
+}
+
+div.isi {
+	float: left;
+	width: 70%;
+	margin-left: 2%;
+}
+
+
+div.isi p{	
+}
+
+div.comTanggal{
+	clear: both;
+	text-align: right;
+	font-style: italic;
+	font-size: 90%;
+	margin-right: 3%;
+	margin-bottom: 2px;
+}
+
+
+
+/*---------------------------------------HOT DESTINATION-------------------------------*/
+
+
+div#hotDest{
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	width: 100%;
+	margin-top: 3%;
+	height: 550px;
+}
+
+div#hotJudul{
+	text-align: center;
+}
+
+div.hotDestInfo{
+	clear: left;
+}
+
+
+div.hotImage{
+	float: left;
+	margin-left: 7%;
+	margin-bottom: 5%;
+	width: 27%;
+}
+
+div.hotImage img{
+	width: 85%;
+	height: 70px;
+}
+
+div.hot{
+	margin-top: 2%;
+	float: left;
+	font-size: 135%;
+}
+#gede{
+	top: 30px;
+	position: absolute;
+	width: 1110px;
+	height: 700px;
+}
+.gedegambare{
+	
+	margin-right: 5px;
+	width: 1100px;
+	height: 700px;
+}

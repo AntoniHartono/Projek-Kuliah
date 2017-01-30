@@ -1,0 +1,76 @@
+/*-------------------------------HEADER---------------------------------------------*/
+body{
+	width: 1110px;
+	margin: auto; 	
+	background: url("img/b2.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+
+.container {
+border:2px solid #ccc;
+width:500px;
+height:200px;
+overflow-y: scroll;
+background-color: white;
+}
+
+#ok{
+	text-align: center;
+		background-color:  rgba(244, 244, 244, 0.9);
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 1099px;
+	margin-top: 0.2%;
+}
+
+#judul{
+	float: left;
+	clear: both;
+	margin-top: 1%;
+	width: 99.05%;
+	text-align: center;
+	font-size: 40px;
+	height: 50px;
+	background-color:  rgba(244, 244, 244, 0.7);
+	padding-bottom: 1%;
+	margin-bottom: 0.2%;
+}
+#fri{
+
+	clear: both;
+	margin-bottom: 1%;
+}
+#isi{
+		
+		clear: both;
+		background-color:  rgba(244, 244, 244, 0.9);
+		font-weight: bold;
+	font-size: 15pt;
+	width: 800px;
+	
+	margin-left:- 1.5%;
+	margin-right: auto;
+	padding-left: 27%;
+	padding-top: 3%;
+}
+
+input#grupbutton{
+	background-color: #333;
+	color: white;
+	border: none;
+	height: 30px;
+}
+
+
+input#grupbutton:hover{
+	background-color: green;
+	cursor: pointer;
+}

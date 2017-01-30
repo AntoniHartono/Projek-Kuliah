@@ -1,0 +1,65 @@
+body{
+	width: 1110px;
+	margin: auto; 	
+	background: url("img/b2.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div#friendlist{
+	
+	clear: left;
+	float: left;
+	height: 355px;
+	width: 98.8%;
+	background-color:  rgba(244, 244, 244, 0.9);
+	border: 1px solid #D4D4D4;
+	overflow: scroll;
+	margin-top: 1%;
+	margin-bottom: 0.2%;
+}
+
+
+
+div#friendlist h2{
+	margin-left: 5%;
+}
+
+div.friend{
+	float: left;
+	margin-top: -1%;
+	margin-left: 5%;
+	margin-bottom: 3%;
+	width: 100px;
+	height: auto;
+	background-color:  rgba(244, 244, 244, 0.9);
+	border: 1px solid #D4D4D4;
+	text-align: center;
+}
+
+div.friendPP{
+	width: 100px;
+	height: 100px;
+}
+
+div.friendPP img{
+	width: 100%;
+	height: 100%;
+}
+div#chatbox{
+
+	clear: left;
+	
+	height: 500px;
+	width: 98.8%;
+	margin-top: 1%;
+	background-color:  rgba(244, 244, 244, 0.9);
+	border: 1px solid #D4D4D4;
+}
+div#isi{
+
+	margin-left: 20px;
+	margin-top: 20px;
+}

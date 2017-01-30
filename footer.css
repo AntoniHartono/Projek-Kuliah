@@ -1,0 +1,30 @@
+
+/*---------------------------------------------FOOTER------------------------------------*/
+
+#footer{
+	clear: both;
+	background-color:  rgba(244, 244, 244, 0.7);
+	border: 1px solid #D4D4D4;
+	margin-top: 1%;
+	height: 100px;
+	width: 1096px;
+}
+
+div#sponsor{
+	float: right;
+	width: 20%;
+}
+
+div#sponsorImg1 img{
+	float: right;
+	width: 29%;
+	margin-top: 7%;
+	margin-right: 10%;
+}
+
+div#sponsorImg2 img{
+	float: right;
+	width: 29%;
+	margin-top: 15%;
+	margin-right: 10%;
+}
